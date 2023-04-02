@@ -88,13 +88,12 @@ class Wraith(FlyableAttackUnit):
             print("{0} : 클로킹 모드로 돌입합니다.".format(self.name))
             self.clocked = True
 
-
 def game_start():
     print("[알림] 새로운 게임을 시작합니다.")
 
 def game_over():
-    print("허수범 : gg")
-    print("[허수범] 님이 게임에서 퇴장하였습니다.")
+    print("Player : gg")
+    print("[Player] 님이 게임에서 퇴장하였습니다.")
 
 
 # 실제 게임 진행
